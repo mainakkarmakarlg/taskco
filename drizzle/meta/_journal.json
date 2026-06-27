@@ -8,6 +8,13 @@
       "when": 1782560275697,
       "tag": "0000_add-user-model",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1782561030751,
+      "tag": "0001_add-todo-model",
+      "breakpoints": true
     }
   ]
 }
