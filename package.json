@@ -13,10 +13,12 @@
     "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --watch",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
+    "db:migrate:test": "drizzle-kit migrate --config=drizzle.config.test.ts",
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
+    "@tanstack/react-query": "^5.101.2",
     "axios": "^1.18.1",
     "bcrypt": "^6.0.0",
     "dotenv": "^17.4.2",
