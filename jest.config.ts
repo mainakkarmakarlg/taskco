@@ -1,6 +1,7 @@
 import type { Config } from 'jest';
 
 const config: Config = {
+  testMatch: ['<rootDir>/src/tests/**/*.test.ts'],
   extensionsToTreatAsEsm: ['.ts'],
   testEnvironment: 'node',
   moduleNameMapper: {
