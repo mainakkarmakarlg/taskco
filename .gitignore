@@ -22,3 +22,5 @@ coverage/
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# claude code project settings (contain connection strings)
+.claude/
